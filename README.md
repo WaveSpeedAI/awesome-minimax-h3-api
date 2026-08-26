@@ -8,8 +8,12 @@
 </p>
 
 <p align="center">
-  <b>🌊 Powered by <a href="https://wavespeed.ai?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api">WaveSpeed AI</a> — serverless Hailuo H3 API, pay-as-you-go, zero cold starts.</b><br>
+  <b>🌊 Powered by <a href="https://wavespeed.ai?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api">WaveSpeedAI</a> — serverless Hailuo H3 API, pay-as-you-go, zero cold starts.</b><br>
   <a href="https://wavespeed.ai/minimax-h3-api?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api"><b>→ Get a Hailuo H3 API key</b></a> &nbsp;·&nbsp; <a href="https://wavespeed.ai/minimax-h3-api?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api"><b>→ Try Hailuo H3</b></a>
+</p>
+
+<p align="center">
+  🖥️ <b>No code?</b> Generate in your browser (no setup, free to start) → <a href="https://wavespeed.ai/video-generator?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api"><b>WaveSpeedAI Video Generator</b></a>
 </p>
 
 ---
@@ -182,7 +186,7 @@ Static shot: A chef delicately slices a hyper-realistic kiwi on a spotless cutti
 ---
 
 ## Related Model Guides
-Part of the WaveSpeed **Awesome Model** series — one guide per frontier model, all runnable through one API:
+Part of the WaveSpeedAI **Awesome Model** series — one guide per frontier model, all runnable through one API:
 
 - 🎬 [awesome-seedance-api](https://github.com/WaveSpeedAI/awesome-seedance-api) — ByteDance Seedance video
 - 🌊 [awesome-wan-api](https://github.com/WaveSpeedAI/awesome-wan-api) — Alibaba Wan video
@@ -204,4 +208,4 @@ PRs welcome:
 [CC0-1.0](LICENSE) — text & prompts are free to use. Model outputs follow the model provider's and [WaveSpeed](https://wavespeed.ai)'s terms.
 
 ---
-<p align="center"><sub>Maintained by <a href="https://wavespeed.ai?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api">WaveSpeed AI</a> — the fastest way to run frontier image & video models via one API. <a href="https://wavespeed.ai/minimax-h3-api?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api"><b>Run MiniMax Hailuo H3 →</b></a></sub></p>
+<p align="center"><sub>Maintained by <a href="https://wavespeed.ai?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api">WaveSpeedAI</a> — the fastest way to run frontier image & video models via one API. <a href="https://wavespeed.ai/minimax-h3-api?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api"><b>Run MiniMax Hailuo H3 →</b></a></sub></p>
