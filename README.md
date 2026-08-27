@@ -146,11 +146,11 @@ Static shot, A man delicately slices a hyper-realistic glass dragon fruit on a p
 Top-down static shot, A thick slice of marbled steak sizzles on a hot black pan, juices bubbling as the surface caramelizes. Steam rises in soft curls, catching warm, directional kitchen light. Rich textures and ASMR sounds evoke savory satisfaction. Hyper-real, food-commercial style.
 ```
 
-### 6. 特写静态画面：一只手在干净表面上缓慢挤压一个闪亮、粉嫩的果冻甜甜圈
+### 6. Close-up static shot: a hand slowly squeezing a glossy pink jelly donut
 *by [@azed_ai](https://x.com/azed_ai)*
 
 ```
-特写静态画面：一只手在干净表面上缓慢挤压一个闪亮、粉嫩的果冻甜甜圈。柔软的果冻状质地在手指间变形、渗出，在柔和的环境光下闪闪发光。鲜艳的色彩在半透明的果冻中波纹荡漾。充满趣味，ASMR，令人满足的感觉。
+Close-up static shot: a hand slowly squeezes a shiny, pink jelly donut on a clean surface. The soft, gelatinous texture deforms and oozes between the fingers, glistening under soft ambient light. Vivid colors ripple through the translucent jelly. Playful, ASMR, deeply satisfying.
 ```
 
 ### 7. Front static shot, A man casually eats molten lava from …
