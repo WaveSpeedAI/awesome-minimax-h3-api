@@ -1,15 +1,14 @@
 # Awesome MiniMax Hailuo H3 API ⚡ — Prompts, Variants & One-Call Video Generation
 
-> The most complete open guide to **MiniMax Hailuo H3 — the fast, high-motion AI video model (text / image / reference to video)** — a community prompt library and a single API to run every variant.
+> The most complete open guide to **MiniMax Hailuo H3 — the fast, high-motion AI video model (text / image / reference to video, open weights and official tiers)** — a community prompt library and a single API to run every variant.
 
 <p align="center">
-  <a href="https://wavespeed.ai/minimax-h3-api?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api"><img src="https://img.shields.io/badge/▶_Run_Hailuo_H3-Get_API_Key-00E5FF?style=for-the-badge&labelColor=0B0B0F" alt="Run Hailuo H3"></a>
-  <a href="https://wavespeed.ai/minimax-h3-api?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api"><img src="https://img.shields.io/badge/Hailuo_H3-Try_Now-7C3AED?style=for-the-badge&labelColor=0B0B0F" alt="Hailuo H3"></a>
+  <a href="https://wavespeed.ai/minimax-h3-api?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api"><img src="https://img.shields.io/badge/▶_Run_MiniMax_H3-Get_API_Key-00E5FF?style=for-the-badge&labelColor=0B0B0F" alt="Run MiniMax H3"></a>
 </p>
 
 <p align="center">
-  <b>🌊 Powered by <a href="https://wavespeed.ai?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api">WaveSpeedAI</a> — serverless Hailuo H3 API, pay-as-you-go, zero cold starts.</b><br>
-  <a href="https://wavespeed.ai/minimax-h3-api?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api"><b>→ Get a Hailuo H3 API key</b></a> &nbsp;·&nbsp; <a href="https://wavespeed.ai/minimax-h3-api?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api"><b>→ Try Hailuo H3</b></a>
+  <b>🌊 Powered by <a href="https://wavespeed.ai?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api">WaveSpeedAI</a> — serverless MiniMax Hailuo H3 API, pay-as-you-go, zero cold starts.</b><br>
+  <a href="https://wavespeed.ai/minimax-h3-api?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api"><b>→ Get a MiniMax H3 API key</b></a>
 </p>
 
 <p align="center">
@@ -21,7 +20,7 @@
 > **Generate right now**
 > ```bash
 > npm i -g @wavespeed/cli && wavespeed login
-> wavespeed run minimax/h3/text-to-video -p "your prompt"
+> wavespeed run wavespeed-ai/minimax-h3/text-to-video -p "your prompt"
 > ```
 > No GPU, no cold start — the same endpoint powers every prompt below.
 
@@ -39,7 +38,7 @@
 
 ## What is MiniMax Hailuo H3?
 
-**MiniMax Hailuo H3** is MiniMax's fast, high-motion AI video model, strong on dynamic action and character consistency. WaveSpeed serves all three modes — text-to-video, image-to-video, and reference-to-video (drive a video from a reference subject).
+**MiniMax Hailuo H3** is MiniMax's fast, high-motion AI video model, strong on dynamic action and character consistency. WaveSpeedAI serves the open-weights **MiniMax H3** (text, image and reference to video with native stereo audio, video edit, video extend, ControlNet, custom LoRA, plus image generation and editing) and the official MiniMax H3, H3 Lite, H3 Highspeed and H3 Image endpoints.
 
 ---
 
@@ -48,9 +47,9 @@
 One endpoint, submit + poll. Swap the model path for any variant below.
 
 ```bash
-curl -s -X POST "https://api.wavespeed.ai/api/v3/minimax/h3/text-to-video" \
+curl -s -X POST "https://api.wavespeed.ai/api/v3/wavespeed-ai/minimax-h3/text-to-video" \
   -H "Authorization: Bearer $WAVESPEED_API_KEY" -H "Content-Type: application/json" \
-  -d '{"prompt": "A parkour runner leaping between rooftops at sunset, dynamic camera, 8k"}'
+  -d '{"prompt": "A parkour runner leaping between rooftops at sunset, dynamic camera, 8k", "aspect_ratio": "16:9"}'
 # → {"data": {"id": "<prediction_id>"}}
 
 curl -s "https://api.wavespeed.ai/api/v3/predictions/<prediction_id>/result" \
@@ -58,7 +57,7 @@ curl -s "https://api.wavespeed.ai/api/v3/predictions/<prediction_id>/result" \
 # → status: completed → outputs: ["<url>"]
 ```
 
-**[→ Get your Hailuo H3 API key](https://wavespeed.ai/minimax-h3-api?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api)** · pay-as-you-go, live pricing on each model page.
+**[→ Get your MiniMax H3 API key](https://wavespeed.ai/minimax-h3-api?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api)** · pay-as-you-go, live pricing on each model page.
 
 **Python wrapper:** [minimax-h3-api](https://github.com/WaveSpeedAI/minimax-h3-api) — one typed function per MiniMax H3 endpoint, built on the official SDK.
 
@@ -68,8 +67,14 @@ curl -s "https://api.wavespeed.ai/api/v3/predictions/<prediction_id>/result" \
 
 All variants open in-browser with a copy-paste API snippet.
 
-### MiniMax Hailuo H3 &nbsp;[▶ API](https://wavespeed.ai/minimax-h3-api)
-[text-to-video](https://wavespeed.ai/models/minimax/h3/text-to-video) · [image-to-video](https://wavespeed.ai/models/minimax/h3/image-to-video) · [reference-to-video](https://wavespeed.ai/models/minimax/h3/reference-to-video)
+### MiniMax H3 (open weights) — recommended &nbsp;[▶ API](https://wavespeed.ai/minimax-h3-api?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api)
+[text-to-video](https://wavespeed.ai/models/wavespeed-ai/minimax-h3/text-to-video?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api) · [image-to-video](https://wavespeed.ai/models/wavespeed-ai/minimax-h3/image-to-video?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api) · [reference-to-video](https://wavespeed.ai/models/wavespeed-ai/minimax-h3/reference-to-video?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api) · [video-edit](https://wavespeed.ai/models/wavespeed-ai/minimax-h3/video-edit?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api) · [video-extend](https://wavespeed.ai/models/wavespeed-ai/minimax-h3/video-extend?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api) · [controlnet](https://wavespeed.ai/models/wavespeed-ai/minimax-h3/controlnet-union?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api) · [text-to-image](https://wavespeed.ai/models/wavespeed-ai/minimax-h3/text-to-image?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api) · [image-edit](https://wavespeed.ai/models/wavespeed-ai/minimax-h3/image-edit?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api)
+
+### Official MiniMax H3 &nbsp;[▶ API](https://wavespeed.ai/minimax-h3-api?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api)
+[text-to-video](https://wavespeed.ai/models/minimax/h3/text-to-video?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api) · [image-to-video](https://wavespeed.ai/models/minimax/h3/image-to-video?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api) · [reference-to-video](https://wavespeed.ai/models/minimax/h3/reference-to-video?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api)
+
+### H3 Lite / Highspeed / Image
+[lite t2v](https://wavespeed.ai/models/minimax/h3-lite/text-to-video?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api) · [lite i2v](https://wavespeed.ai/models/minimax/h3-lite/image-to-video?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api) · [highspeed t2v](https://wavespeed.ai/models/minimax/h3-highspeed/text-to-video?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api) · [highspeed i2v](https://wavespeed.ai/models/minimax/h3-highspeed/image-to-video?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api) · [image t2i](https://wavespeed.ai/models/minimax/h3-image/text-to-image?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api) · [image edit](https://wavespeed.ai/models/minimax/h3-image/edit?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api)
 
 > Full catalog: **[wavespeed.ai/minimax-h3-api](https://wavespeed.ai/minimax-h3-api?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api)**
 
