@@ -60,6 +60,8 @@ curl -s "https://api.wavespeed.ai/api/v3/predictions/<prediction_id>/result" \
 
 **[→ Get your Hailuo H3 API key](https://wavespeed.ai/minimax-h3-api?utm_source=github&utm_medium=readme&utm_campaign=awesome-minimax-h3-api)** · pay-as-you-go, live pricing on each model page.
 
+**Python wrapper:** [minimax-h3-api](https://github.com/WaveSpeedAI/minimax-h3-api) — one typed function per MiniMax H3 endpoint, built on the official SDK.
+
 ---
 
 ## Model Variants
